@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Confirmation Form</title>    <!-- Payment confirmation form(Frontend) is designed with HTML5, CSS3 ans JS by Subhankar Banik -->
+	<script src="notify.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<form><center>
+<p>
+	<h1><u>Payment Confirmation Form</u></h1>
+</p>
+<fieldset>
+	<legend>User Information</legend>
+	<font size=4+ color="black" face="Bell MT">
+	<p>First Name: <input type="text" name="fname" placeholder="Subhankar" required="First Name please"></p>
+	<p>Last Name: <input type="text" name="lname" placeholder="Banik" required></p>
+	<p>Father Name: <input type="text" name="fname" placeholder="Amit Banik" required></p>
+	<p>Email I'd: <input type="email" name="email" placeholder="subhankarbanik23@gmail.com" required></p>
+	<p>Address: <textarea name="address" cols="50" rows="3" required></textarea></p>
+	<p>Pincode: <input type="number" name="pincode" placeholder="7990**" required></p></font>
+</fieldset>
+<hr><br>
+<!--Sender Bank Details-->
+<fieldset>
+	<legend>Sender's Bank Details</legend>
+	<font size=4+ color="black" face="Bell MT">
+	<p>Account holder's name: <input type="text" name="ahname" placeholder="Subhankar Banik" required></p>
+	<p>Bank Name: <input type="text" name="bname" placeholder="State Bank of India" required></p>
+	<p>Account Number: <input type="password" name="acnum" placeholder="Sender Account Number" required></p>
+	<p>IFSC Code: <input type="text" name="ifsc" placeholder="SBIN****" required></p>	
+	</font>
+</fieldset><br>
+<!--Receiver Bank Details-->
+<fieldset>
+	<legend>Receiver's Bank Details</legend>
+	<font size=4+ color="black" face="Bell MT">
+	<p>Account holder's name: <input type="text" name="ahname" placeholder="Subhankar Banik" required></p>
+	<p>Bank Name: <input type="text" name="bname" placeholder="State Bank of India" required></p>
+	<p>Account Number: <input type="password" name="acnum" placeholder="Receiver Account Number" required></p>
+	<p>IFSC Code: <input type="text" name="ifsc" placeholder="SBIN****" required></p>	
+	</font>
+</fieldset>
+<br>
+<input type="submit" name="submit" value="PAY NOW">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+<input type="reset" name="reset" value="RESET">
+</center></form>
+</body>
+</html>
